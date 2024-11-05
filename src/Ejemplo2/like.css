@@ -1,0 +1,72 @@
+.like-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1d1d1d;
+}
+
+.like-publicacion img {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #d8d8d8;
+}
+
+.like-button {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    height: 48px;
+    width: 50px;
+    border: none;
+    background-color: #1d1d1d;
+    overflow: hidden;
+    border-radius: 10px;
+    
+}
+
+.like-heart {
+    display: none;
+}
+
+.like-label {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.like-icon {
+    fill: #d4d4d4;
+    height: 28px;
+    width: 28px;
+}
+
+.like-text {
+    color: #fcfcfc;
+    font-size: 16px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.like-count {
+    position: absolute;
+    right: 0;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #717070;
+    font-size: 16px;
+    transition: all 0.5s ease-out;
+}
+.like-heart:checked ~ .like-label .like-icon {
+    fill: #fc4e4e;
+    animation: enlarge 0.2s ease-out 1;
+    transition: all 0.2s ease-out;
+}
+

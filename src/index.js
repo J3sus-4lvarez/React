@@ -1,13 +1,18 @@
 import React from 'react';
+
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import { Tarea1 } from './Ejemplo1/formulario';
+import { Tarea2 } from './Ejemplo2/like';
+import { Tarea3 } from './Ejemplo3/ListaTarea';
+import { Tarea4 } from './Ejemplo4/Correo';
+import { Tarea5 } from './Ejercicio5/Clima';
+import { Tarea6 } from './Instagram/App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Tarea6 />
   </React.StrictMode>
 );
 

@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000000;
+}
+
+.instagram-contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.instagram-barra-lateral {
+    width: 16%;
+}
+
+.instagram-contenido {
+    width: 50%;
+    
+}
+
+.instagram-contenido-derecha {
+    width: 35%;
+}
